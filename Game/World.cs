@@ -16,8 +16,6 @@ namespace Game
         public static void DisplayWorld()
         {
             Console.WriteLine("Welcome");
-            
-
             for (int y = 0; y < WorldHeight; y++)
             {
                 for (int x = 0; x < WorldWidth; x++)
@@ -27,7 +25,6 @@ namespace Game
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("Hello isaac");
         }
     }
 }

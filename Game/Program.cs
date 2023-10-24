@@ -5,9 +5,8 @@ namespace Game
     {
         public static void Main(string[] args)
         {
-            MainMenu.DisplayMainMenu();
 
-
+            MainMenu.StartMenu();
         }
     }
 }
